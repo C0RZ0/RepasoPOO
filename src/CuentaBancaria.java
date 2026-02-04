@@ -30,6 +30,6 @@ public class CuentaBancaria {
             throw new IllegalStateException("No se puede retirar mas de lo que cuenta su saldo");
         }
 
-        this.saldo -= valorAConsignar;
+        this.saldo -= valorARetirar;
     }
 }
