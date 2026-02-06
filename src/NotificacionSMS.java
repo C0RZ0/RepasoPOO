@@ -1,6 +1,6 @@
-public class NotificacionCorreo extends Notificacion{
+public class NotificacionSMS extends Notificacion{
 
-    protected NotificacionCorreo(String receptorNotificacion){
+    protected NotificacionSMS(String receptorNotificacion){
         super(receptorNotificacion);
     }
     @Override
